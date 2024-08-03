@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Ndaedzo Mudau</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">NRB Mudau</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <!--<li><a href="contact.html" class="active">Contact</a></li>-->
+            </ul>
+            <div class="burger">
+                <div class="line1"><a href="index.html">Home</a></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <h1 class="glitch" data-text="Contact Me">Contact Me</h1>
+            <p class="subtitle">Let's connect and create something amazing</p>
+        </section>
+
+        <section class="contact-content">
+            <div class="contact-form fade-in">
+                <h2>Get in Touch</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="contact-info fade-in">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> ndaedzomu101@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +27712229813</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Centurion, South Africa</li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://github.com/kxngHADES" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rudzani-mudau/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/idfw_rudzi" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/idfw.rudzi/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Ndaedzo Mudau. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/kxngHADES" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rudzani-mudau/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/idfw_rudzi" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/idfw.rudzi/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <div id="cursor"></div>
+    <div id="cursor-border"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/webgl.js"></script>
+</body>
+</html>

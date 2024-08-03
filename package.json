@@ -1,0 +1,19 @@
+{
+  "name": "propers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "barba.js": "^1.0.0",
+    "gsap": "^3.12.5",
+    "scrollmagic": "^2.0.8",
+    "three.js": "^0.77.1"
+  }
+}
